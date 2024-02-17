@@ -1,0 +1,236 @@
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  overflow: hidden;
+}
+
+header {
+  background: #9CECFB;  
+  background: -webkit-linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
+  background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
+  color: #fff; 
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  max-height: 25px; 
+  margin-right: 10px;
+}
+
+.header-right{
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.header-right a{
+  margin-right: 1rem;
+  color: #fff;
+}
+
+main {
+  overflow: hidden;
+}
+
+#form-section{
+  margin-top: 20px; 
+}
+
+
+#form-section {
+  background-color: #fff; 
+  padding: 15px;
+  z-index: 1; 
+}
+
+form {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+  font-size: 1rem;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form .input-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+form #fecha,
+form #hora {
+  width: calc(50% - 5px);
+}
+
+form button {
+  width: 150px; 
+  align-self: flex-end; 
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+.form-buttons{
+  display: flex;
+  justify-content: flex-end;
+}
+
+#content-section {
+  overflow-y: auto; 
+  padding: 15px;
+}
+
+.scroll-data {
+  height: 20rem;
+  overflow-x: auto; 
+  padding: 15px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.card-content {
+  width: 75%;
+}
+
+.card-buttons {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 8px 12px;
+  margin-right: 10px;
+  background-color: #4CAF50;
+  color: #fff; 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+.confirmar {
+  background-image: linear-gradient(to right, #1D976C 0%, #93F9B9  51%, #1D976C  100%);
+  margin: 5px;
+  padding: 15px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.confirmar:hover {
+  background-position: right center; 
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.editar {
+  background-image: linear-gradient(to right, #ffb347 0%, #ffcc33  51%, #ffb347  100%);
+  margin: 5px;
+  padding: 15px 38px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.editar:hover {
+  background-position: right center; 
+  color: #fff;
+  text-decoration: none;
+}
+
+.cancelar {
+  background-image: linear-gradient(to right, #e52d27 0%, #b31217  51%, #e52d27  100%);
+  margin: 5px;
+  padding: 15px 38px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.cancelar:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.card h3 {
+  color: #333;
+}
+
+footer {
+  height: 5px;
+  background: #9CECFB; 
+  background: -webkit-linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
+  background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB); 
+  color: #fff;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
